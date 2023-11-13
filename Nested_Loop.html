@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function main()
+        {
+            let str = ''
+            for(let i=1;i<=5;i++)
+            {
+                for(let j=1;j<=5;j++)
+                {
+                    str=str+ (i+j)
+                }
+                str= str+'\n'
+            }
+            
+            console.log(str)
+        }
+        main()
+        function main1()
+        {
+            let str = ''
+            for(let i=1;i<=4;i++)
+            {
+                for(let j=1;j<=4;j++)
+                {
+                    if(j%2==0)
+                    {
+                        str=str+'@'
+                    }
+                    else
+                    {
+                        str=str+'*'
+                    }
+                }
+                str=str+'\n'
+            }
+            console.log(str)
+        }
+        main1()
+
+        function main2()
+        {
+            let str=''
+            for(let i=1;i<=5;i++)
+            {
+                for(let j=1;j<=i;j++)
+                {
+                    str=str+'*'
+                }
+                str=str+'\n'
+            }
+            console.log(str)
+        }
+        main2()
+
+        function main3()
+        {
+            let str=''
+            for(let i=1;i<=5;i++)
+            {
+                for(let j=1;j<=i;j++)
+                {
+                    if(j%2==0)
+                    {
+                        str=str+j
+                    }
+                    else
+                    {
+                        str=str+(i+j)
+                    }
+                }
+                str=str+'\n'
+            }
+            console.log(str)
+        }
+        main3()
+
+        function main4()
+        {
+            let str=''
+            for(let i=1;i<=5;i++)
+            {
+                for(let j=5;j>i;j--)
+                {
+                    str=str+'a'
+                }
+                str=str+'\n'
+            }
+            console.log(str)
+        }
+        main4()
+        
+    </script>
+</body>
+</html>
